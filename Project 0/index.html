@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 250px;
+      }
+      
+
+      #search {
+        width: 580px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid lightgrey;
+        border-color: lightgray;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbvVqNgAJxG-4iH9xEgNJMXui2fbzcKkDEhg&usqp=CAU");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: left;
+        padding-left: 35px;
+      }
+
+      #search.hover {
+        cursor: context-menu;
+        
+      }
+      .box {
+        border-radius: 2px;
+        border: none;
+        background-color: rgba(249, 249, 249, 0.913);
+        font-size: 15px;
+        width: 150px;
+        height: 35px;
+        margin: 15px;
+      }
+      .box:hover {
+        cursor: pointer;
+        border-color: grey;
+        border: 1px solid lightgrey;
+      }
+
+      #header {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+     
+      }
+      a{ color: black;
+      text-decoration: none;}
+
+      a:hover{cursor: pointer;
+      text-decoration: underline;}
+
+      .button {
+        border: none;
+        background-color: white;
+      }
+      .button:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      #footer{ position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        height: 50px;
+      background-color: #FAFAFA;
+    padding: 10px;}
+
+    .alignleft{float: left;}
+    .alignright{float: right;}
+
+    .alignleft:hover, .alignright:hover{text-decoration: underline;
+    cursor: pointer;}
+    </style>
+  </head>
+  <body>
+    <div id="header">
+   <a href="Image.html">Image &nbsp</a>
+   <a href="Advance.html">&nbsp Advance</a>
+</div>
+
+    <div id="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="450" "alt="Google image logo">
+    </div>
+    <form action="https://www.google.com/search">
+      <input id="search" type="text" name="q" />
+      <div>
+        <input class="box" name="btnK" type="submit" value="Google Search" />
+        <input
+          class="box"
+          name="btnI"
+          type="submit"
+          value="I'm Feeling Lucky"
+        />
+      </div>
+    </form>
+  </body>
+  <footer>
+    <div id="footer">
+      <p class="alignleft">Advertising &emsp;</p>
+      <p class="alignleft">About</p>
+      <p class="alignright">Privacy &emsp;</p>
+      <p class="alignright">Terms &emsp;</p>  
+      <p class="alignright"> Settings &emsp;</p>
+    </div>
+ </footer>
+ 
+</html>
